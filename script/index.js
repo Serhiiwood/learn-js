@@ -8,7 +8,7 @@ window.onload = function() {
 
 // TASK CARDS TOGGLER
 
-$('.task__solution').hide();
+$( '.task__solution' ).hide();
 $( '.task__solution-btn').click(function() {
 	$(this).next().toggle('slow');
 });
